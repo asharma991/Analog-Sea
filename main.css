@@ -70,12 +70,16 @@ button {
   background: #fcfcfc;
   margin: 10px auto 20px auto;
 }
-.analog-form button {
-  border: 0;
-  background-color: #65c470;
-}
+
 button[type="submit"] {
   font-size: 22px;
   font-weight: 700;
+  color: white;
+  border: 0;
+  background-color: #65c470;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #31bd41;
   color: white;
 }
