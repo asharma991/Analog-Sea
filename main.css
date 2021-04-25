@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+body {
+  background-color: #3f94e7;
+  padding-top: 60px;
+}
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer p {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+footer p > a {
+  color: inherit;
+}
+footer p > a:hover {
+  color: #e7f1f9;
+}
+.analog-sea-logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: min-content;
+}
+.analog-sea-logo img {
+  height: 35px;
+}
+.analog-form {
+  background-color: white;
+  padding: 40px;
+  width: 400px;
+  border-radius: 3px;
+  margin: 0;
+}
+.analog-form legend {
+  text-align: center;
+  font-size: 35px;
+  color: #565656;
+  margin-bottom: 45px;
+}
+fieldset {
+  padding-left: 0;
+  border: none;
+  margin: 0;
+}
+.analog-form label,
+input {
+  display: block;
+  font-weight: 500;
+}
+.analog-form input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  padding: 15px;
+  height: 55px;
+  width: 320px;
+  border-radius: 3px;
+}
+.analog-form input {
+  border: 2px solid #e7e7e7;
+  background: #fcfcfc;
+  margin: 10px auto 20px auto;
+}
+.analog-form button {
+  border: 0;
+  background-color: #65c470;
+}
+button[type="submit"] {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
