@@ -58,6 +58,14 @@ input {
   display: block;
   font-weight: 500;
 }
+.analog-form a {
+  display: block;
+  color: #aeb0b1;
+  text-decoration: underline;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
 .analog-form input,
 button {
   padding: 15px;
