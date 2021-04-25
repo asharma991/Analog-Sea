@@ -58,9 +58,8 @@ input {
   display: block;
   font-weight: 500;
 }
-.analog-form input[type="email"],
-input[type="password"],
-button[type="submit"] {
+.analog-form input,
+button {
   padding: 15px;
   height: 55px;
   width: 320px;
